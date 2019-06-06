@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Hello World"'
-                sh javac NullPointerSample.java
+                sh javac HelloWorld.java
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
